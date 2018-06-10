@@ -1,0 +1,145 @@
+@font-face {
+  font-family: 'Exo-Medium';
+  src: url("/fonts/Exo-Medium.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo-Italic';
+  src: url("/fonts/Exo-Italic.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo-Black';
+  src: url("/fonts/Exo-Italic.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+@font-face {
+  font-family: 'Exo-Thin';
+  src: url("/fonts/Exo-Thin.ttf");
+  font-weight: normal;
+  font-style: normal; }
+
+html, body {
+  padding: 0;
+  margin: 0; }
+
+p {
+  font-size: 16px;
+  color: #A2A2A5;
+  font-family: Exo-Medium; }
+
+#header {
+  height: 100vh; }
+
+.header-content {
+  position: relative;
+  height: 100vh;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  padding: 5% 0 10% 0; }
+  .header-content .flex-center {
+    margin: auto; }
+    .header-content .flex-center .main-title h1 {
+      font-size: 60px;
+      margin-top: 0;
+      font-family: "Exo-Thin", sans-serif;
+      font-weight: 300; }
+    .header-content .flex-center .btn-order {
+      display: inline-block;
+      outline: none;
+      background: #FF6D6D;
+      color: white;
+      text-decoration: none;
+      font-size: 16px;
+      font-family: "Exo-Medium", sans-serif;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 15px 48px;
+      text-transform: uppercase;
+      -webkit-transition: all 0.2s;
+      -o-transition: all 0.2s;
+      transition: all 0.2s;
+      -webkit-border-radius: 3px;
+              border-radius: 3px; }
+      .header-content .flex-center .btn-order:hover {
+        background-color: #d30000; }
+      .header-content .flex-center .btn-order:active {
+        -webkit-transform: translateY(2px);
+            -ms-transform: translateY(2px);
+                transform: translateY(2px); }
+    .header-content .flex-center .orderBtn-container {
+      margin-top: 38px;
+      font-family: "Exo-Medium", sans-serif; }
+      .header-content .flex-center .orderBtn-container span {
+        display: block;
+        margin-top: 10px;
+        color: #A2A2A5;
+        font-size: 14px; }
+  .header-content #togglePlay {
+    -webkit-border-radius: 100%;
+            border-radius: 100%;
+    border: none;
+    background-color: rgba(50, 57, 105, 0.8);
+    opacity: 0.5;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    transition: all 0.3s;
+    cursor: pointer;
+    width: 59px;
+    height: 59px;
+    outline: none;
+    position: relative; }
+    .header-content #togglePlay:hover {
+      background-color: #323969; }
+  .header-content #togglePlay.pause {
+    color: #fff;
+    font-family: "FontAwesome";
+    text-align: center;
+    vertical-align: middle; }
+    .header-content #togglePlay.pause::after {
+      content: "\f04c";
+      font-size: 18px;
+      padding-left: 1px;
+      opacity: 1; }
+  .header-content #togglePlay.play {
+    color: #fff;
+    font-family: "FontAwesome";
+    text-align: center;
+    vertical-align: middle; }
+    .header-content #togglePlay.play::after {
+      content: "\f04b";
+      font-size: 18px;
+      padding-left: 1px;
+      opacity: 1; }
+
+#controlBar_bgndVideo, .buttonBar {
+  display: none !important; }
+
+.first-section .left-column-firstS {
+  margin: 20% 0; }
+
+.s-title {
+  font-family: "Exo-Medium", sans-serif;
+  margin-bottom: 20px; }
+  .s-title_before {
+    color: #FF6D6D;
+    text-transform: uppercase;
+    font-size: 16px; }
+  .s-title h2 {
+    font-size: 40px;
+    margin: 0;
+    color: #282828; }
+  .s-title_after {
+    color: #FF6D6D;
+    font-size: 40px;
+    display: inline;
+    line-height: 0; }
